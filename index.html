@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veidlapas izveide ar html, css, js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="about-us">
+        <h1>Animēta forma <br>Mācos kodēt animētu lapu</h1>
+        <p>Es mācos pamatus, lai varētu rakstīt kodu, un ātrāk sākt savu karjeru kā programmētājs</p>
+    </div>
+    <div class="container">
+        <!----------------- Form 1------------------>
+        <div class="form-container" id="form1">
+            <form action="#">
+                <h3 class="form-title">Personiskā informācija</h3>
+                <div class="about-form">
+                    <div class="input-box">
+                        <label for="firstName">Vārds:</label>
+                        <input type="text" id="firstName" placeholder="Ievadiet vārdu">
+                    </div>
+                    <div class="input-box">
+                        <label for="lasttName">Uzvārds:</label>
+                        <input type="text" id="lasttName" placeholder="Ievadiet uzvārdu">
+                    </div>
+                    <div class="input-box">
+                        <label for="birth">Dzimšanas datums:</label>
+                        <input type="date" id="birth">
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-pasts:</label>
+                        <input type="email" id="email" placeholder="Ievadiet e-pastu">
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Parole:</label>
+                        <input type="password" id="password" placeholder="Ievadiet paroli">
+                    </div>
+                    <div class="input-box">
+                        <label for="Confirm">Apstiprināt paroli:</label>
+                        <input type="password" id="password" placeholder="Ievadiet paroli">
+                    </div>
+                    <div class="input-box">
+                        <label for="job">Nodarbošanās:</label>
+                        <input type="text" id="job" placeholder="Ievadiet Jūsu statusu">
+                    </div>
+                    <div class="input-box">
+                        <label for="status">Ģimenes stāvoklis:</label>
+                        <select name="status" id="status">
+                              <option value="Select status">Izvēlēties statusu</option>
+                              <option value="married">Precējies</option>
+                              <option value="single">Brīvs</option>
+                          </select>
+                    </div>
+                    <div class="register-button">
+                        <input type="submit" id="nextStep1" value="Next Step">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!----------------- Form 2------------------>
+        <div class="form-container" id="form2">
+            <form action="#">
+                <h3 class="form-title">Kontaktinformācija</h3>
+                <div class="about-form">
+                    <div class="input-box">
+                        <label for="phone">Telefona numurs:</label>
+                        <input type="tel" id="phone" placeholder="Ievadiet telefona numuru">
+                    </div>
+                    <div class="input-box">
+                        <label for="address">Adrese:</label>
+                        <input type="text" id="address" placeholder="Ievadiet adresi">
+                    </div>
+                    <div class="input-box">
+                        <label for="day">Pasta indekss:</label>
+                        <input type="day" id="day" placeholder="Ievadiet pasta indeksu">
+                    </div>
+                    <div class="input-box">
+                        <label for="state">Valsts:</label>
+                        <input type="text" id="state" placeholder="Ievadiet e-pastu">
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Parole:</label>
+                        <input type="password" id="password" placeholder="Ievadiet paroli">
+                    </div>
+                    <div class="input-box">
+                        <label for="face">Facebook:</label>
+                        <input type="text" id="face" placeholder="Facebook address">
+                    </div>
+                    <div class="input-box">
+                        <label for="linkdin">Linkdin:</label>
+                        <input type="text" id="linkdin" placeholder="Linkdin address">
+                    </div>
+                    <div class="input-box">
+                        <label for="country">Valsts:</label>
+                        <select name="country" id="country">
+                              <option value="Select Country">Izvēlēties valsti</option>
+                              <option value="latvia">Latvija</option>
+                              <option value="canada">Kanāda</option>
+                              <option value="france">Francija</option>
+                              <option value="italy">Itālija</option>
+                              <option value="estonia">Igaunija</option>
+                              <option value="lietuva">Lietuva</option>
+                          </select>
+                    </div>
+                    <div class="register-button">
+                        <input type="submit" id="previous1" value="Previous">
+                        <input type="submit" id="nextStep2" value="Next Step">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!----------------- Form 3------------------>
+        <div class="form-container" id="form3">
+            <form action="#">
+                <h3 class="form-title">Izglītība</h3>
+                <div class="about-form">
+                    <div class="input-box">
+                        <label for="firstName">Skolas nosaukums:</label>
+                        <input type="text" id="firstName" placeholder="Ievadiet skolas nosaukumu" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="board">Studijas nosaukums:</label>
+                        <input type="text" id="board" placeholder="Ievadiet studijas nosaukmu" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="university">Koledža / Universitāte:</label>
+                        <input type="text" id="university" placeholder="Ievadiet Koledžu/Universitāti">
+                    </div>
+                    <div class="input-box">
+                        <label for="day">Reģistrācijas datums:</label>
+                        <input type="date" id="day">
+                    </div>
+                    <div class="input-box">
+                        <label for="course">Kursi:</label>
+                        <select name="course" id="course">
+                            <option value="Select Course">Izvēlēties kursus</option>
+                            <option value="html">HTML Kursi</option>
+                            <option value="java">Java Kursi</option>
+                            <option value="python">Python Kursi</option>
+                            <option value="css">CSS Kursi</option>
+                            <option value="js">JavaScript Kursi</option>
+                            <option value="sql">SQL Kursi</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="register-button">
+                    <input type="submit" id="previous2" value="Previous">
+                    <input type="submit" id="nextStep3" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script>
+        var form1 = document.getElementById("form1");
+        var form2 = document.getElementById("form2");
+        var form3 = document.getElementById("form3");
+
+        var nextStep1 = document.getElementById("nextStep1");
+        var nextStep2 = document.getElementById("nextStep2");
+        var nextStep3 = document.getElementById("nextStep3");
+
+        var previous1 = document.getElementById("previous1");
+        var previous2 = document.getElementById("previous2");
+
+        nextStep1.onclick = function() {
+            form1.style.left = "-50%";
+            form2.style.left = "50%";
+        }
+        nextStep2.onclick = function() {
+            form2.style.left = "-50%";
+            form3.style.left = "50%";
+        }
+
+        previous1.onclick = function() {
+            form1.style.left = "50%";
+            form2.style.left = "150%";
+        }
+        previous2.onclick = function() {
+            form2.style.left = "50%";
+            form3.style.left = "150%";
+        }
+    </script>
+
+</body>
+
+</html>
